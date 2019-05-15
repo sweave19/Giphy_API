@@ -1,0 +1,90 @@
+body {
+    background-color: antiquewhite;
+}
+
+#buttons {
+    text-align: center;
+    padding: 0 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#inputAnimal::placeholder {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#addAnimal {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 5px;
+}
+
+#title {
+    font-family: 'Akronim', cursive;
+    padding: 20px 0;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.lead {
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 30px;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#jumbotron {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: antiquewhite;
+}
+
+input {
+    text-align: center;
+}
+
+.inputLine {
+    padding-left: 375px;
+}
+
+.form-group {
+    text-align: center;
+}
+
+.animalGif {
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+#gifArea {
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.animalBtn {
+    margin-right: 8px;
+    background-color: green;
+    border-color: darkgreen;
+}
+.animalBtn:hover {
+    border-color: darkgreen;
+    background-color: darkgreen;
+}
+
+#subBtn {
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: green;
+    border-color: darkgreen;
+}
+
+#subBtn:hover {
+    border-color: darkgreen;
+    background-color: darkgreen;
+}
+
+.ratings {
+    margin-right: 12px;
+}

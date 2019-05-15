@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Animal API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Akronim|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron" id="jumbotron">
+        <div class="container">
+            <h1 class="display-4" id="title">Animal GIF Generator</h1>
+            <p class="lead">Click a button to show animal GIFs, or add your own animal button with the "Add Animal" text
+                box. <br>Click the GIFs to start and stop animation.</p>
+            <p id="buttons">
+
+                <!-- Animal Button Area -->
+
+            </p>
+            <br>
+            <br>
+            <br>
+            <p id="formArea">
+                <form>
+                    <div class="form-group">
+                        <label for="addAnimal" id="addAnimal">Add Animal</label>
+                        <div class="inputLine"><input type="animal" class="form-control col-md-6" id="inputAnimal"
+                            placeholder="Type animal name here!"></div>
+                        <button type="submit" class="btn btn-primary" id="subBtn">Submit</button>
+                    </div>
+                </form>
+            </p>
+        </div>
+    </div>
+
+    <div class="container col-md-12">
+        <div class="row" id="gifArea">
+            <!-- GIFs populate here -->
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
